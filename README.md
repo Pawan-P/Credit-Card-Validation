@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1.  Clone and run command > npm install --legacy-peer-deps.
+2.  Proceed to run using > npm run start
 
 ## Available Scripts
 

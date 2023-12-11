@@ -176,7 +176,7 @@ class CheckoutForm extends Component<IProps, IState> {
               />
             </Grid>
             <Grid item xs={12} sm={12} md={2} lg={2} xl={2} className={classes.validateBtn}>
-              <Button onClick={this.handleValidateCreditCard}>Validate</Button>
+              <Button onClick={this.handleValidateCreditCard} disabled={!creditCardNumber || creditCardNumber===''}>Validate</Button>
             </Grid>
 
             <Snackbar open={isValid && showToast} autoHideDuration={1500} onClose={this.handleCloseToast}>
